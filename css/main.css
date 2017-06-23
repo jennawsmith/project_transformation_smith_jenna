@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
 }
 
 h3 {
@@ -120,7 +120,7 @@ img {
 .post {
     overflow: hidden;
     margin-bottom: 40px;
-    border-bottom: 1px solid #e7ebed;
+    border-top: 1px solid #e7ebed;
 }
 
 .post .title {
@@ -129,26 +129,21 @@ img {
 }
 
 .post .title a {
-    border: none;
     text-decoration: none;
     color: #222222;
 }
 
 .post .meta {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     padding: 10px 0 px 0 px 0 px;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
-.post .meta .date {
-    float: left;
-}
-
-.post .meta .posted {
-    float: right;
+.post span {
+    padding-left: 10%;
 }
 
 .post .entry {
@@ -162,8 +157,7 @@ img {
 }
 
 .more {
-    display: block;
-    float: left;
+    display: inline-block;
     width: 88px;
     padding: 5px 5px;
     margin-right: 10px;
@@ -174,8 +168,7 @@ img {
 }
 
 .comments {
-    display: block;
-    float: left;
+    display: inline-block;
     width: 88px;
     padding: 5px 5px;
     background: #222222;
@@ -186,8 +179,6 @@ img {
 
 /* Sidebar */
 #sidebar {
-    float: left;
-    width: 270px;
     margin: 0 px;
     padding: 30px 0 px 0 px 0 px;
 }
@@ -252,9 +243,9 @@ img {
 
 /* Footer */
 #footer {
-    height: 140px;
+    height: 10%;
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 20px;
     font-family: 'Abel', sans-serif;
 }
 
