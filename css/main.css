@@ -102,6 +102,11 @@ a {
     color: #000000;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 /* Search */
 #search {
     float: right;
@@ -186,16 +191,9 @@ a {
 
 /* Page */
 #page {
-    width: 1000px;
+    width: 100% / 3 * 2;
     margin: 0 auto;
-    padding: 30px 0 px;
-}
-
-/* Content */
-#content {
-    float: right;
-    width: 660px;
-    padding: 0 px 0 px 0 px 0 px;
+    padding: 2%;
 }
 
 .post {
@@ -463,13 +461,6 @@ a {
     text-transform: lowercase;
     font-size: 30px;
     color: #ffffff;
-}
-
-#banner {
-    margin: 0 px auto;
-    width: 1000px;
-    height: 340px;
-    background: url(../img/img03.png) no-repeat left bottom;
 }
 
 .list-style1 {
