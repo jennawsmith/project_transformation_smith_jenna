@@ -84,9 +84,9 @@ nav {
 }
 
 nav ul {
-    margin: 0;
     list-style: none;
     line-height: normal;
+    padding-left: 0;
 }
 
 nav li {
