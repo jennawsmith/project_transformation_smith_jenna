@@ -1,4 +1,4 @@
-body {
+`body {
     margin: 0;
     padding: 0;
     background: #050505 url(../img/img01.jpg) repeat;
@@ -100,9 +100,14 @@ nav .current_page_item a {
     color: #ffffff;
 }
 
+.img {
+    text-align: center;
+}
+
 img {
     width: 100%;
     height: auto;
+    max-width: 800px;
 }
 
 /* Page */
@@ -226,3 +231,22 @@ img {
 #footer a {
     color: #5e5e5e;
 }
+
+@media all and (min-width: 550px) {
+    nav ul li {
+        display: inline;
+        padding: 5px;
+        margin-left: 0;
+        border-bottom: 1px solid black;
+        text-align: center;
+
+    }
+
+    nav {
+        width: 90%;
+        padding: 5%;
+    }
+
+
+}
+`
