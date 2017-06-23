@@ -59,7 +59,7 @@ a {
 #header {
     width: 100%;
     margin: 0 auto;
-    padding: 0 px 0 px;
+    padding: 5px;
 }
 
 /* Logo */
@@ -100,13 +100,6 @@ a {
     background: none;
     text-decoration: none;
     color: #000000;
-}
-
-/* Splash */
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0 px auto;
 }
 
 /* Search */
