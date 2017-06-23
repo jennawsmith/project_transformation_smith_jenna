@@ -275,6 +275,12 @@ img {
         margin-top: 4%;
         width: 25%;
     }
+
+    #wrapper::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
