@@ -48,10 +48,6 @@ a {
 }
 
 /* Header */
-#header-wrapper {
-    overflow: hidden;
-}
-
 #header {
     width: 100%;
     margin: 0 auto;
@@ -111,15 +107,14 @@ img {
 
 /* Page */
 #page {
-    overflow: hidden;
     width: 90%;
     margin: 0 auto;
     padding: 2%;
 }
 
 .post {
-    overflow: hidden;
-    margin-bottom: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
     border-top: 1px solid #e7ebed;
 }
 
@@ -142,10 +137,6 @@ img {
     font-weight: 300;
 }
 
-.post span {
-    padding-left: 10%;
-}
-
 .post .entry {
     padding: 0 px 0 px 40 px 0 px;
     text-align: justify;
@@ -153,7 +144,7 @@ img {
 
 .links {
     padding-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .more {
@@ -180,57 +171,29 @@ img {
 /* Sidebar */
 #sidebar {
     margin: 0 px;
-    padding: 30px 0 px 0 px 0 px;
+    padding: 15px;
 }
 
 #sidebar ul {
-    margin: 0;
+    margin: 5px;
     padding: 0;
     list-style: none;
 }
 
-#sidebar li {
-    margin: 0;
-    padding: 0;
-}
-
 #sidebar li ul {
-    margin: 0 px 0 px;
     padding-bottom: 30px;
 }
 
 #sidebar li li {
     line-height: 40px;
     border-bottom: 1px solid #e7ebed;
-    margin: 0 px 0 px;
-    border-left: none;
-}
-
-#sidebar li li span {
-    display: block;
-    margin-top: -20px;
-    padding: 0;
-    font-size: 11px;
-    font-style: italic;
-}
-
-#sidebar li li a {
-    padding: 0 px 0 px 0 px 20px;
-    background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 #sidebar h2 {
-    height: 38px;
     padding: 0 px 0 px 30px 0 px;
     letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
-}
-
-#sidebar p {
-    margin: 0 0 px;
-    padding: 0 px 30px 20px 30px;
-    text-align: justify;
 }
 
 #sidebar a {
