@@ -250,82 +250,6 @@ img {
     text-decoration: underline;
 }
 
-/* Calendar */
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
-/* Three Column Footer Content */
-#footer-content {
-    overflow: hidden;
-    width: 1000px;
-    margin: 0 px auto;
-    color: #d6e2f0;
-}
-
-#footer-content a {
-    color: #92a9b6;
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0 px;
-    background: #e8e8e8;
-}
-
-#footer-content h2 {
-    margin: 0 px;
-    padding: 0 px 0 px 20px 0 px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
-}
-
-#column1 {
-    float: left;
-    width: 290px;
-    margin-right: 30px;
-}
-
-#column2 {
-    float: left;
-    width: 280px;
-}
-
-#column3 {
-    float: right;
-    width: 260px;
-}
-
 /* Footer */
 #footer {
     height: 140px;
@@ -347,14 +271,4 @@ img {
 
 #footer a {
     color: #5e5e5e;
-}
-
-.list-style1 {
-    margin: 0 px;
-    padding: 0 px;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7f7f7f;
 }
