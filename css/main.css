@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 1.05em;
     color: #5b5b5b;
 }
 
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
 }
 
 h3 {
@@ -59,20 +59,16 @@ a {
 #header {
     width: 100%;
     margin: 0 auto;
-    padding: 5px;
+    text-align: center;
 }
 
 /* Logo */
 #logo {
-    float: left;
-    width: 300px;
-    margin: 0;
-    padding: 0;
+    width: 100%;
     color: #ffffff;
 }
 
 #logo h1 {
-    line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
@@ -80,26 +76,36 @@ a {
 #logo h1 a {
     color: #1f1f1f;
     text-shadow: 1px 1px 0 px rgba(0, 0, 0, 0.2);
-}
-
-#logo p {
-    margin: 0;
-    padding: 0 px 0 0 0 px;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8e8e8e;
-}
-
-#logo p a {
-    color: #8e8e8e;
-}
-
-#logo a {
     border: none;
     background: none;
     text-decoration: none;
-    color: #000000;
+}
+
+/* Nav */
+nav {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 300;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    line-height: normal;
+}
+
+nav li {
+    padding-bottom: 5px;
+}
+
+nav a:hover,
+nav .current_page_item a {
+    background: url(../img/img01.jpg) repeat;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 img {
@@ -145,49 +151,7 @@ img {
     color: #000000;
 }
 
-/* Menu */
-#menu {
-    float: right;
-    width: 500px;
-    height: 90px;
-    margin: 0 auto;
-    padding: 0;
-}
 
-#menu ul {
-    float: right;
-    margin: 0;
-    padding: 20px 0 px 0 px 0 px;
-    list-style: none;
-    line-height: normal;
-}
-
-#menu li {
-    float: left;
-}
-
-#menu a {
-    display: block;
-    line-height: 100px;
-    margin-right: 1px;
-    padding: 0 px 20px 0 px 20px;
-    text-decoration: none;
-    text-align: center;
-    text-shadow: 1px 1px 0 px rgba(0, 0, 0, 0.2);
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    color: #1f1f1f;
-    border: none;
-}
-
-#menu a:hover,
-#menu .current_page_item a {
-    background: url(../img/img01.jpg) repeat;
-    text-decoration: none;
-    color: #ffffff;
-}
 
 /* Page */
 #page {
